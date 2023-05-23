@@ -1,0 +1,63 @@
+*{
+    font-family: 'Baloo Bhai 2', cursive;
+}
+body{
+    content: "";
+    /* background: url('https://images2.alphacoders.com/261/thumb-1920-26102.jpg'); */
+    opacity: 0.5;
+}
+p.current{
+    text-align: center;
+}
+.hours{
+    border: 5px solid orange;
+    border-radius: 35px;
+    margin: 0px 356px;
+    padding: 0px 30px;
+}
+.time{
+    display: flex;
+}
+.week {
+    justify-content: center;
+    text-align: center;
+    padding: 0px 25%;
+    margin: 0px 0px;
+}
+.time1 {
+    padding: 0px 25%;
+    justify-content: center;
+    text-align: center;
+    margin: 0px -170px;
+}
+.closing{
+    border: 5px solid orange;
+    border-radius: 35px;
+    margin: 0px 356px;
+    padding: 0px 30px;
+}
+.date{
+    display: flex;
+    padding: 70px 0px;
+}
+.days{
+    padding: 0px 26%;
+    margin: -72px 0px;
+    justify-content: center;
+    text-align: center;
+}
+.date1{
+    padding: 0px 24%;
+    margin: -72px -400px;
+    justify-content: center;
+    text-align: center;
+}
+.location{
+    border: 5px solid orange;
+    border-radius: 35px;
+    margin: 0px 356px;
+    padding: 0px 30px;
+}
+.address{ 
+    padding: 5px 0px;
+}

@@ -1,0 +1,111 @@
+#navbar{
+    display: flex;
+    margin: -8px -8px;
+    background-color: grey;
+}
+#logo{
+    margin: 10px 34px;
+}
+#logo img{
+    height: 109px;
+    width: 90px;
+    margin: 3px 6px;
+}
+#navbar ul{
+    display: flex;
+    margin: 45px 0px;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+#navbar ul li a{
+    color: black;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: orangered;
+}
+.course{
+    text-align: center;
+    font-size: 1.5rem;
+    text-decoration: underline rgb(255, 68, 68) 2px;
+    color: coral;
+}
+.collection{
+    padding: 7px 36px;
+    display: flex;
+    border: 5px solid orangered;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-right: 32px;
+    margin-left: 42px;
+    border-radius: 25px;
+
+}
+.collection img{
+    margin: 21px 0px;
+    padding: 0px 0px;
+    height: 32px;
+    width: 37px;
+    opacity: 0.7;
+}
+.collection p{
+    margin: 7px 20px;
+    padding: 0px 0px;
+    font-size: 50px;
+}
+#content{
+    background: url('./mario-gogh-VBLHICVh-lI-unsplash.jpg') no-repeat center center/cover;
+    position: absolute;
+    display: flex;
+    height: 280px;
+    width: 95%;
+    padding: 0px 25px;
+    margin: 0px 43px;
+}
+.card{
+    background-color: rgb(75, 74, 74);
+    width: 25%;
+    height: 230px;
+    padding: 4px 0px;
+    margin: 22px 10px;
+    text-align: center;
+}
+.interest{
+    text-align: center;
+    font-size: 1.5rem;
+    text-decoration: underline rgb(255, 68, 68) 2px;
+    color: coral;
+}
+#card2{
+    margin: 25px auto;
+}
+#card3{
+    margin: 25px auto;
+}
+.content2{
+    margin: 300px 0px;
+}
+#con-interest1{
+    background: url('./alexandre-debieve-FO7JIlwjOtU-unsplash\ \(1\).jpg') no-repeat center center/cover;
+    position: absolute;
+    display: flex;
+    height: 280px;
+    width: 95%;
+    padding: 0px 25px;
+    margin: 0px 43px;
+}
+#con-interest{
+    background: url('./marvin-meyer-SYTO3xs06fU-unsplash.jpg') no-repeat center center/cover;
+    position: absolute;
+    display: flex;
+    height: 280px;
+    width: 95%;
+    padding: 0px 25px;
+    margin: 0px 43px;
+}

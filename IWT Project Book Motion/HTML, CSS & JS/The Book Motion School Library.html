@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Book Motion</title>
+    <link rel="icon" type="image/x-icon"
+        href="./booklogo.png">
+    <link rel="stylesheet" href="The Book Motion School Library.css">
+    <script src="recommendation.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div class="logo">
+            <img src="./Picsart_22-01-10_20-50-00-741.png" alt="No image">
+        </div>
+        <ul>
+            <li class="item"><a href="./Collection.html">Catalog</a></li>
+            <li class="item"><a href="Contact US.html">Contact Us</a></li>
+            <li class="item"><a href="Hours and Location.html">Hours & Location</a></li>
+            <li class="item"><a href="The Book Motion School Library.html">Browse</a></li>
+            <li class="item"><a href="About.html">About</a></li>
+            <li id="account" class="item"><a href="Account.html">SignUp</a></li>
+        </ul>
+        <div class="logo">
+            <img src="./Chitkara_College.jfif" alt="No image">
+        </div>
+    </nav>
+    <section id="Home">
+        <h1>Personal space to grow, read and Explore.</h1>
+        <p>Open: 9am to 9pm</p>
+    </section>
+    <div id="services-container">
+        <img src="./booktree.png" alt="">
+        <p class="h-primary1">Before Netflix there was the Library. </p>
+    </div>
+    <div>
+        <p class="h-secondary1"><a href="./Collection.html">View Our Collections ></a></p>
+        <!--For Catalog-->
+    </div>
+    <div class="container">
+        <div class="content1">
+            <img src="./laptoppng.png" alt="">
+            <p>Resources and Instruction <br>for a tech-community</p>
+        </div>
+        <div id="content2">
+            <p class="device">Devices</p>
+            <div class="material">
+                <p class="material1"><a href="Device1.html">1.Digital Lab</a></p>
+                <p class="material1"><a href="Device2.html">2.Scanner/Printer</a></p>
+                <p class="material1"><a href="Device3.html">3.Editing MAC</a></p>
+            </div>
+        </div>
+    </div>
+    <div id="research">
+        <img src="./—Pngtree—hand drawn cartoon a pile_4045098.png" alt="">
+        <h1 class="reading">Your Reading and Research start here.</h1>
+    </div>
+    <div id="container2">
+        <div class="collection"></div>
+        <div class="issue"></div>
+    </div>
+    <div id="container3">
+        <div class="collection2"><a href="./Collection.html">Collection</a></div>
+        <div class="issue2"><a href="./Issue Book.html">Issue</a></div>
+    </div>
+    <div id="aboutgrp">
+        <h1>About Group Member</h1>
+        <hr style=" width: 100%; background-color: orange; height: 2px;">
+        <div class="about">
+            <div class="index" id="member1">
+                <center><h2>1.Atul Raj</h2></center>
+                <center><p class="h-primary">2110990322<br>BE(CSE)<br>HG02</p></center>
+                <center><p class="h-secondary">I am Pursuing Bachelor of Engineering in Computer Science from Chitkara University also I am the group leader of this project "BOOK MOTION" and working as a Front-end and Back-end developer. I am a detail-Oriented person and can juggle between tasks. I love to play football in my spare time and a big fan of Cristiano Ronaldo.I am also a part of the college football team.I have interest in many other things like Real Estate and Stock Marketing. i Reaalised that the field quite excites me and I believe I can Bring my skills on the table for First Position.</p></center>
+            </div>
+            <div class="index" id="member2">
+                <center><h2>2.Ayush Aggarwal</h2></center>
+                <center><p class="h-primary">2110990331<br>BE(CSE)<br>HG02</p></center>
+                <center><p class="h-secondary">My self Ayush Aggarwal and I am pursing my Bachelor of Engineering(B.E) in cumputer science from Chitkara University. I am also a member of project, name "BOOK MOTION" working as a front-end devoloper.
+                I am passionate about my work and love to do coding.I am also a member of college tech club"Bites and Bytes". I love to read tech articles during my spare time and explore new innovations around the globe.
+                I am also passionate about enterpeneur skills and wants to have my own start-up tech company one day and grabbing knowledge about it.</p></center>
+            </div>
+            <div class="index" id="member3">
+                <center><h2>3.Anushruti Singh</h2></center>
+                <center><p class="h-primary">2110990243<br>BE(CSE)<br>HG02</p></center>
+                <center><p class="h-secondary">My Name is Anushruti Singh and I am pursing BE(CSE) from Chitkara University.I am also a Member of Project, Name "BOOK MOTION" working as information collector and Front end Developer.</p></center>
+            </div>
+        </div>
+    </div>
+    <div id="rating">
+        <h1>Your Recommendations:</h1>
+        <form action="">
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Comment Box"></textarea>
+        </form>
+        <!-- Star Rating  -->
+        <script>
+            $(':radio').change(function() {
+          console.log('New star rating: ' + this.value);
+        });
+        </script>
+        <form class="rating">
+            <label>
+              <input type="radio" name="stars" value="1" />
+              <span class="icon">★</span>
+            </label>
+            <label>
+              <input type="radio" name="stars" value="2" />
+              <span class="icon">★</span>
+              <span class="icon">★</span>
+            </label>
+            <label>
+              <input type="radio" name="stars" value="3" />
+              <span class="icon">★</span>
+              <span class="icon">★</span>
+              <span class="icon">★</span>   
+            </label>
+            <label>
+              <input type="radio" name="stars" value="4" />
+              <span class="icon">★</span>
+              <span class="icon">★</span>
+              <span class="icon">★</span>
+              <span class="icon">★</span>
+            </label>
+            <label>
+              <input type="radio" name="stars" value="5" />
+              <span class="icon">★</span>
+              <span class="icon">★</span>
+              <span class="icon">★</span>
+              <span class="icon">★</span>
+              <span class="icon">★</span>
+            </label>
+        </form>
+          <button class="btn">Submit</button>
+    </div>
+    <footer>
+        <center><div class="footer">
+            ©Copyright & Copy ; 2021 Book Motion Library | Built by THE SUPREMES
+        </div></center>
+        <div id="footerimg">
+            <div class="media1">
+                <img src="facebook-32.png" alt="">
+            </div>
+            <div class="media1">
+                <img src="./new-instagram-logo-white-border-icon-png-large.png" alt="">
+            </div>
+            <div class="media1">
+                <img src="snapchat-2-32.png" alt="">
+            </div>
+            <div class="media1">
+                <img src="twitter-4-32.png" alt="">
+            </div>
+            <div class="media1">
+                <img src="linkedin-32.png" alt="">
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

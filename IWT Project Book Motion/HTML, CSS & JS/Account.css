@@ -1,0 +1,59 @@
+/* Account Section  */
+*{
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    top: -71px;
+    right: -8px; 
+    left: -8px;
+}
+.form-group b{
+    font-size: 20px;
+    color: white;
+}
+p{
+    font-size: 70px;
+    color: orange;
+    padding-top: 120px;
+    margin: 0px 27%;
+}
+#account{
+    position: relative;
+}
+#account::before{
+    content: "";
+    position: absolute;
+    width: 101%;
+    height: 109%;
+    z-index: -1;
+    opacity: 1;
+    background: url('./jaredd-craig-HH4WBGNyltc-unsplash.jpg') no-repeat center center/cover; 
+}
+#account-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+#account-box input,
+#account-box text area{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.2rem;
+}
+#contact-box form{
+    width: 40%;
+}
+#contact-box label{
+    font-size: 1.3rem;
+}
+#btn{
+    margin: 24px 387px;
+    padding: 0px 8px;
+    color: orangered;
+}
+#btn:hover{
+    color: grey;
+    text-shadow: thistle;
+    box-shadow: darkgray;
+}

@@ -1,0 +1,75 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+#main{
+    padding: 64px 0px;
+    margin: -8px 0px;
+}
+#main::before{
+    content: "";
+    position: fixed;
+    background: url('./computerlab.jpg') no-repeat center center/cover;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    opacity: 0.7;
+    width: 100%;
+    z-index: -1; 
+}
+.issue{
+    margin: -10px 22px;
+    padding: 35px 2px;
+}
+.h-primary{
+    border: 5px solid orangered;
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 23px;
+    margin: 0px 0px;
+    padding: 0px 95px;
+    font-size: 5rem;
+    color: darkorange;
+}
+.issue-box{
+    padding: 3px 0px;
+    margin: 48px 0px;
+} 
+.form-group .form-group2{
+    margin: 17px 5px;
+}
+.form-group input{
+    font-size: 15px;
+    padding-right: 75%;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border-radius: 10px;
+    margin: 10px 0px;
+}
+.form-group2 input{
+    font-size: 25px;
+    color: black;
+    margin: 14px 3px;
+}
+.form-group2 p{
+    font-size: 25px;
+    color: black;
+    margin: 14px 3px;
+}
+.date{
+    font-size: 25px;
+    color: black;
+    margin: 14px 3px;
+}
+.btn{
+    padding: 4px 30%;
+    margin: 0px 200px;
+    background-color: orangered;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+}
+.btn:hover{
+    color: white;
+    box-shadow: grey;
+    background-color:#ff7777;
+    cursor: pointer;
+}

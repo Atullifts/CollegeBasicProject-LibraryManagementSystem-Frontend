@@ -1,0 +1,19 @@
+.div1{
+    border: 10px solid #455;
+    background-repeat: no-repeat;
+}
+.head{
+    text-align: center;
+    text-transform: capitalize;
+    padding: 40px;
+    font-size: 60px;
+}
+h2{
+    text-transform: capitalize;
+    color: orangered;
+}
+p{
+    font-weight: 600;
+    text-rendering: initial;
+    text-align: center;
+}

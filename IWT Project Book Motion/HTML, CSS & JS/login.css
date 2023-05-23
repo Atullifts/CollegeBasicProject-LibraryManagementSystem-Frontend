@@ -1,0 +1,41 @@
+body{
+    margin: 125px 0px 0px 230px;
+    padding: 10px ;
+
+}
+div{
+    text-align: justify;
+
+}
+#div1{
+    height: 325px;
+    width: 280px;
+    border: 1px black solid;
+    padding: 5px;
+    margin: 5px;
+}
+#div2{
+    margin: 5px 40px;
+}
+
+#mydiv{
+    height: 100px;
+    width: 200px;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 0px 25px;
+}
+#button{
+    padding: 3px;
+    margin: 1rem;
+}
+#button:hover{
+    box-shadow: aliceblue;
+}
+input{
+    color:grey ;
+    border:1px black solid;
+    padding: 1px;
+    margin: 1px;
+
+}

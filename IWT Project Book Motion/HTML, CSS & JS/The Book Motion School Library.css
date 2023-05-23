@@ -1,0 +1,410 @@
+/* CSS Reset  */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* Navigation Bar  */
+
+#navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+#navbar::before{
+    content: "";
+    background-color: grey;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+/* Navigation Bar::Logo and Image  */
+.logo{
+    margin: 10px 34px;
+}
+
+.logo img{
+    height: 60px;
+    margin: 3px 170px;
+    border-radius: 4px;
+}
+
+/* Navigation Bar: List Styling */
+#navbar ul{
+    display: flex;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem ;
+}
+#account{
+    border: 2px solid black ;
+    margin-bottom: 22px;
+    border-radius: 16.9px;
+    color: white;
+    font-weight: bold;
+    background-color: orangered;
+}
+#navbar ul li a{
+    color: whitesmoke;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration:none ;
+}
+
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+ /* Home CSS */
+#Home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 170px;
+    justify-content: center;
+}
+#Home::before{
+    content: "";
+    position: absolute;
+    background: url("https://images.pexels.com/photos/590493/pexels-photo-590493.jpeg?cs=srgb&dl=pexels-janko-ferlic-590493.jpg&fm=jpg") no-repeat center center/cover;
+    height: 290px;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: -1;
+}
+#Home h1{
+    color: white;
+    font-size: 1.6rem;
+    text-align: left;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+#Home p{
+    color: yellow;
+    font-size: 1.4rem;
+    text-align: left;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.5rem;
+}
+
+/* Collections CSS */
+#services-container {
+    margin: 39px;
+    padding: 0px 160px;
+}
+p.h-primary1{
+    color: red;
+    font-size: 2rem;
+    font-family: 'Nunito', sans-serif;
+}
+p.h-secondary1{
+    font-size: 2rem;
+    font-family: 'Nunito', sans-serif;
+    margin: 39px;
+    padding: 0px 160px;
+}
+#services-container img{
+    height: 70px;
+    width: 70px;
+}
+.h-secondary1 a:link{
+    text-decoration: none;
+    font-size: 1.8rem;
+    margin: -155px;
+    padding: 0px 160px;
+}
+.h-secondary1 a:hover{
+    color: red;
+    text-decoration: none;
+    font-size: 2rem;
+    margin: -155px;
+    padding: 0px 160px;
+}
+/* CSS of Devices  */
+.container{
+    display: flex;
+    border: 5px solid orange;
+    border-radius: 31px;
+    margin: 0px 60px;
+    padding: 20px 0px;
+}
+
+.content1 {
+    padding: 0px 100px;
+    margin: 0px 0px;
+}
+
+.content1 img {
+    height: 38px;
+    width: 50px;
+    padding-top: 20px;
+    opacity: 0.4;
+}
+
+.content1 p {
+    color: orange;
+    font-size: 1.5rem;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bolder;
+}
+
+#content2{
+    content: "";
+    background-image: url('https://images.pexels.com/photos/207589/pexels-photo-207589.jpeg?cs=srgb&dl=pexels-pixabay-207589.jpg&fm=jpg');
+    padding: 0px 415px;
+    margin: -20px 0px;
+    border-top-right-radius: 27px;
+    border-bottom-right-radius: 27px;
+}
+
+#content2 p.device{
+    color: crimson;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 900;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+#content2 p.device:hover {
+    color: orangered;
+    font-size: 2.1rem;
+    
+}
+.material1{
+    font-size: 20px;
+    padding: 0px 0px;
+    margin: 0px 0px;
+    
+}
+.material1 a:link{
+    color: blueviolet;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: 'Nunito', sans-serif;
+}
+.material1 a:hover{
+    background-color: rgb(180, 253, 107);
+    color:darkred;
+    text-decoration: underline;
+    font-size: 1.6rem;
+    font-family: 'Nunito', sans-serif;
+}
+#research{
+    padding: 12px 205px;
+    font-size: 1rem;
+    color: red;
+    font-family: 'Nunito', sans-serif;
+    
+}
+#research img{
+    height: 88px;
+    width: 100px;
+
+}
+#container2{
+    display: flex;
+    border: 5px solid orange;
+    border-radius: 31px;
+    margin: 20px 60px;
+    padding: 20px 0px;
+    height: 190px;
+}
+.collection{
+    background: url('./pexels-pixabay-256541.jpg') no-repeat center center/cover;
+    z-index: -1;
+    opacity: 0.7;
+    width: 50%;
+    margin: -21px 0px;
+    padding: 19px 0px;
+    border-top-left-radius: 27px;
+    border-bottom-left-radius: 27px;
+}
+
+.issue{
+    background: url('./pexels-ricardo-esquivel-1907784.jpg') no-repeat center center/cover;
+    z-index: -1;
+    opacity: 0.7;
+    margin: -21px 0px;
+    padding: 19px 0px;
+    border-top-right-radius: 27px;
+    border-bottom-right-radius: 27px;
+    width: 50%;
+}
+#container3{
+    display: flex;
+    margin: -67px 0px;
+
+}
+#container3 a{
+    color: black;
+    text-decoration: none;
+}
+#container3 a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.collection2{
+    font-size: 2rem;
+    background-color: rgb(218, 216, 216);
+    border: 2px solid orangered;
+    margin: 0px 65px;
+    padding: 0px 20px;
+    border-bottom-left-radius: 25px;
+}
+
+.issue2{
+    font-size: 2rem;
+    background-color: rgb(218, 216, 216);
+    border: 2px solid orangered;
+    margin: 0px 453px;
+    padding: 0px 30px;
+}
+#aboutgrp{
+    height: 500px;
+    margin-top: 117px;
+    margin-left: 60px;
+    margin-right: 60px;
+    border: 5px solid orange;
+    border-radius: 31px;
+    padding: 20px 0px;
+}
+#aboutgrp h1{
+    margin: 0px 153px;
+    color: orangered;
+    font-family: 'Nunito', sans-serif;
+}
+.h-primary{
+    font-family: 'Ubuntu', sans-serif;
+}
+.h-secondary{
+    font-family: 'Montserrat', sans-serif;
+}
+#rating{
+        height: 300px;
+        border-radius: 31px;
+        margin: 40px 60px;
+        padding: 20px 0px;
+}
+#rating textarea{
+    border: 1px solid black;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    background-color: rgb(228, 228, 228);
+    border-radius: 13px;
+    width: 80%;
+    padding: 4px 4px;
+    margin: -4px 12px;
+}
+#rating h1{
+    padding: 12px 160px;
+    font-size: 2rem;
+    color: red;
+    font-family: 'Nunito', sans-serif;
+}
+.btn{
+    margin: -2px 350px;
+    padding: 5px 40px;
+    background-color: lightpink;
+    border-radius: 2px;
+    font-family: 'Nunito', sans-serif;  
+}
+/* Star Rating */
+.rating {
+    display: inline-block;
+    position: relative;
+    height: 50px;
+    line-height: 50px;
+    font-size: 50px;
+  }
+  
+  .rating label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    cursor: pointer;
+  }
+  
+  .rating label:last-child {
+    position: static;
+  }
+  
+  .rating label:nth-child(1) {
+    z-index: 5;
+  }
+  
+  .rating label:nth-child(2) {
+    z-index: 4;
+  }
+  
+  .rating label:nth-child(3) {
+    z-index: 3;
+  }
+  
+  .rating label:nth-child(4) {
+    z-index: 2;
+  }
+  
+  .rating label:nth-child(5) {
+    z-index: 1;
+  }
+  
+  .rating label input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+  }
+  
+  .rating label .icon {
+    float: left;
+    color: transparent;
+  }
+  
+  .rating label:last-child .icon {
+    color: #000;
+  }
+  
+  .rating:not(:hover) label input:checked ~ .icon,
+  .rating:hover label:hover input ~ .icon {
+    color: #09f;
+  }
+  
+  .rating label input:focus:not(:checked) ~ .icon:last-child {
+    color: #000;
+    text-shadow: 0 0 5px #09f;
+  }
+.footer{
+    background-color: black;
+    margin: 0px 0px;
+    color: white;
+    height: 100px;
+    font-size: 17px;
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+#footerimg{
+    display: flex;
+    margin: -28px 555px;
+}
+.media1 img{
+    width: 18px;
+    height: 18px;
+    padding: 0px 30px;
+}
